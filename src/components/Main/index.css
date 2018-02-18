@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1;
+  min-height: 100vh;
+  padding: 30px;
+}

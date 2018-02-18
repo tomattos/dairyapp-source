@@ -1,0 +1,22 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 100%;
+  padding: 28px;
+  line-height: 1.2;
+  background-color: #2B2F3E;
+}
+
+.sidebar--title {
+  margin: 0 0 10px;
+  font-size: 36px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.sidebar--subtitle {
+  font-size: 18px;
+  color: #808080;
+}

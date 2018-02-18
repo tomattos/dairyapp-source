@@ -1,0 +1,13 @@
+.comment-form {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.comment-form--field {
+  height: 70px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #CCCCCC;
+  resize: none;
+}

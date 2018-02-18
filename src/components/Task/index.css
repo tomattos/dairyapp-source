@@ -1,0 +1,49 @@
+.task {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #F2F2F2;
+  text-decoration: none;
+}
+
+.task.active::before {
+  content: '';
+  position: absolute;
+  left: -34px;
+  top: 0;
+  display: block;
+  width: 5px;
+  height: 100%;
+  background-color: #FF2F5A;
+}
+
+.task--button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+  padding: 0 25px;
+  border-radius: 3px;
+  border: 1px solid #FF3159;
+  cursor: pointer;
+  font-size: 16px;
+  color: #FF3159;
+  word-break: normal;
+  background-color: transparent;
+}
+
+.task--number {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 5px 12px;
+  border-radius: 25px;
+  background-color: #27CCC0;
+  color: #fff;
+}
+
+.task--name {
+  font-weight: 600;
+  color: #2B2F3E;
+}

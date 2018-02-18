@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.form--input {
+  height: 37px;
+  flex: 1 1;
+  padding: 10px;
+  border: 1px solid #B3B3B3;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #2B2F3E;
+}
+
+.form--input::-moz-placeholder {
+  color: #B3B3B3;
+}
+
+.form--button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 37px;
+  margin-left: 10px;
+  padding: 0 25px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #27CCC0;
+  color: #fff;
+}
